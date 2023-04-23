@@ -2,9 +2,9 @@
 import '../../global.css';
 import './input.css';
 
-const Input = ({type, dummytext}) => {
+const Input = ({type, name, dummytext}) => {
     return (
-        <input id="form-input" type={type} placeholder={dummytext} required/>
+        <input id="form-input" type={type} name={name} placeholder={dummytext} required/>
     );
 }
 
