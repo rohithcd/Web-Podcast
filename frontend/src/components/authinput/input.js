@@ -4,7 +4,7 @@ import './input.css';
 
 const Input = ({type, name, dummytext}) => {
     return (
-        <input id="form-input" type={type} name={name} placeholder={dummytext} required/>
+        <input className="form-input" type={type} name={name} placeholder={dummytext} required/>
     );
 }
 
