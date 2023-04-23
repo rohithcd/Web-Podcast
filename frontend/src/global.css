@@ -19,10 +19,30 @@ a {
 	text-decoration: none;
 }
 
+a:visited,
+a:link,
+a:active,
+a:hover {
+	color: inherit;
+}
+
 /* Default font */
 body {
 	font-family: 'Fira Sans', sans-serif;
 	color: #fff;
+}
+
+main[id] {
+	width: 100%;
+    height: 100vh;
+	padding: 15px 15px 0 calc(90px + 15px);
+	background-color: var(--bg-main);
+	overflow-y: scroll;
+
+}
+
+main > * {
+	margin-bottom: 35px;
 }
 
 
@@ -30,4 +50,8 @@ body {
 
 :root {
 	--bg-sidebar: #2D2F31;
+	--clr-active: #55286F;
+	--bg-main: 	#1f1f1f;
+	--bg-card: #2D2F31;
+	--bg-btn: #55286F;
 }

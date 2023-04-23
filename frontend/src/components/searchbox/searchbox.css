@@ -1,0 +1,42 @@
+.search-box {
+    display: flex;
+    gap: 20px;
+}
+
+/*-------- Input Styles --------*/
+input[type="text"] {
+    background: var(--bg-card);
+    color: #fff;
+    width: 375px;
+    border-radius: 24px;
+    padding: 0 15px;
+    outline: none;
+    border: none;
+}
+/*-------- End Input Styles --------*/
+
+
+/*-------- Button Styles --------*/
+
+.search-btn {
+    background: var(--bg-btn);
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    gap: 6px;
+
+    outline: none;
+    border: none;
+
+    border-radius: 24px;
+    padding: 10px 12px;
+}
+
+.search-btn img {
+    width: 15px;
+    height: 15px;
+}
+
+/*-------- End Button Styles --------*/

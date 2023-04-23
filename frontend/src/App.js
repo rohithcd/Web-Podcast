@@ -7,6 +7,7 @@ import {lazy, Suspense} from 'react'; // For lazy loading components
 
 // Importing Pages
 const Home = lazy(() => import('./pages/home/home'));
+const Search = lazy(() => import('./pages/search/search'));
 const Login = lazy(() => import('./authentication/login/login'));
 const Signup = lazy(() => import('./authentication/signup/signup'));
 
@@ -19,6 +20,7 @@ const App = () => {
 			<Sidebar/>
 			<Routes>
 				<Route path="/" element={<Home />} />
+				<Route path="/search" element={<Search />} />
 				<Route path="/login" element={<Login />} />
 				<Route path="/signup" element={<Signup />} />
 				<Route path="*" element={<>Page Not Found</>} />
