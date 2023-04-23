@@ -1,13 +1,13 @@
 // Importing Styles 
 import '../../global.css';
-import './login.css';
+import './signup.css';
 
-const Login = () => {
+const Signup = () => {
     return (
         <div>
-            <h1>Login Page</h1>
+            <h1>Signup Page</h1>
         </div>
     );
 }
 
-export default Login;
+export default Signup;
