@@ -2,15 +2,19 @@
 import '../../global.css';
 
 // Importing Layouts
-import SwipeDeck from '../../layouts/swipeDeck/swipeDeck';
+import GridDeck from '../../layouts/gridDeck/gridDeck';
+import Header from '../../layouts/header/header';
 
+// Importing Images 
+import headerBg from '../../assets/images/header-bg.jpg';
 
-const Search = () => {
+const Library = () => {
     return (
-        <main id="search">
-            <SwipeDeck title="Recent Searches" items={audioItems}/>
-            <SwipeDeck title="Top Video Podcasts" items={audioItems}/>
+        <main id="library">
+            <Header pic={headerBg} title="My Library"/>
+            <GridDeck items={audioItems}/>
         </main>
+        
     );
 }
 
@@ -25,4 +29,4 @@ const audioItems = [
     {pic: "https://picsum.photos/id/237/200/300", name: "sds", authors: "das"},
 ];
 
-export default Search;
+export default Library;

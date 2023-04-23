@@ -1,0 +1,29 @@
+#grid-deck {
+    display: grid;
+    grid-template-columns: repeat(5, 260px);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+#grid-deck .grid-item-1 {
+    grid-column: 1 / 3;
+    background: linear-gradient(113.44deg, #55286F 24.36%, rgba(188, 143, 214, 0.45) 112.91%);
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid-deck .grid-item-1 span {
+    text-align: center;
+}
+
+
+
+#grid-deck .grid-item-1 span h2 {
+    font-size: 6rem;
+}
+
+#grid-deck .grid-item-1 span h6 {
+    font-size: 3rem;
+}

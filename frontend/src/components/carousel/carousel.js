@@ -2,6 +2,8 @@
 import '../../global.css';
 import './carousel.css';
 
+// Importing Components
+import Card from '../card/card';
 
 
 const Carousel = ({cardDetails}) => {
@@ -14,16 +16,6 @@ const Carousel = ({cardDetails}) => {
                 ))}
             </div>
             <img className="carousal-arrow c-right c-ptr"  alt="" />
-        </div>
-    );
-}
-
-const Card = ({pic, name, authors}) => {
-    return (
-        <div id="card">
-            <img src={pic} alt="" />
-            <h4>{name}</h4>
-            <p>{authors}</p>
         </div>
     );
 }
