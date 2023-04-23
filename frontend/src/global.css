@@ -53,5 +53,12 @@ main > * {
 	--clr-active: #55286F;
 	--bg-main: 	#1f1f1f;
 	--bg-card: #2D2F31;
+
 	--bg-btn: #55286F;
+	--bg-input: #55286F;
+	--clr-input: #F4ECF8;
+
+	--bg-form: #33203D;
+
+	--bg-auth-selection: #2F1D3A;
 }

@@ -4,55 +4,46 @@
 }
   
   
-  .carousal {
-    /* width: max(360px, 85vw); */
-    /* height: 260px; */
-    gap: 20px;
-    display: flex;
-    flex-direction: row;
-    overflow-x: auto;
-  }
-  
-  .carousal-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #fff;
-    padding: 10px;
-    z-index: 2;
-  }
-  
-  .c-right {
-    right: 20px;
-  }
-  
-  .c-left {
-    left: 20px;
-    transform: translateY(-50%) rotate(-180deg);
-  }
-  
-  .carousal::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .carousal > div {
-    /* Min width is important for the carousal scroll to work */
-    position: relative;
-  }
-  
-  .carousal-index {
-    position: absolute;
-    bottom: 40px;
-    left: 20px;
-    color: #fff;
-    font-size: 70px;
-    font-weight: 900;
-    font-style: italic;
-    text-shadow: 1px 1px 1px #929292;
-  }
+.carousal {
+	/* width: max(360px, 85vw); */
+	/* height: 260px; */
+	gap: 20px;
+	display: flex;
+	flex-direction: row;
+	overflow-x: auto;
+}
+
+.carousal-arrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: var(--bg-btn);
+	padding: 10px;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.c-right {
+	right: 20px;
+	transform: translateY(-50%) rotate(-180deg);
+}
+
+.c-left {
+	left: 20px;
+}
+
+.carousal::-webkit-scrollbar {
+	display: none;
+}
+
+.carousal > div {
+	/* Min width is important for the carousal scroll to work */
+	position: relative;
+}
+
 
 /*------- Carousel Styles End -------*/
 

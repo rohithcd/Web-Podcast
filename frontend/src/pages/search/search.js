@@ -3,11 +3,12 @@ import '../../global.css';
 
 // Importing Layouts
 import SwipeDeck from '../../layouts/swipeDeck/swipeDeck';
-
+import Searchbox from '../../components/searchbox/searchbox';
 
 const Search = () => {
     return (
         <main id="search">
+            <Searchbox />
             <SwipeDeck title="Recent Searches" items={audioItems}/>
             <SwipeDeck title="Top Video Podcasts" items={audioItems}/>
         </main>

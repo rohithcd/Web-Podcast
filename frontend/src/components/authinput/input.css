@@ -1,0 +1,17 @@
+#form-input {
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    padding: 0 10px;
+
+    color: var(--clr-input);
+    outline: none;
+    border: none;
+
+    background: var(--bg-input);
+    font-size: 1.05rem;
+}
+
+#form-input::placeholder {
+    color: #E9DAF1;
+}
